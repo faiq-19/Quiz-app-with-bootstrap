@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#course-list .card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#course-list .card:hover {
+    transform: scale(1.05);
+}
+
+.quiz-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#timer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+#results {
+    background-color: #d4edda;
+    padding: 20px;
+    border-radius: 5px;
+}
